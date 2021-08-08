@@ -244,6 +244,9 @@ div .pagination-current-item:hover{
     .page-section h1{
         font-size: 1rem;
     }
+    .pagination-other-item{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -252,5 +255,8 @@ div .pagination-current-item:hover{
     }
     .page-section h1{
         font-size: 1.2rem;
+    }
+    .pagination-other-item{
+        display: none;
     }
 }
