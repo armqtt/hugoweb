@@ -20,12 +20,12 @@ type = "blog"
 
 ## 隐私短信
 
-可即時收取短信
+可即時收取短信：
 
 [https://tw.yinsiduanxin.com/country.html](https://tw.yinsiduanxin.com/country.html "https://tw.yinsiduanxin.com/country.html")
 
 ## Fake Email Generator
 
-可即時收取電郵
+可即時收取電郵：
 
 [http://www.fakemailgenerator.com/#/rhyta.com/Thunt1976/](http://www.fakemailgenerator.com/#/rhyta.com/Thunt1976/ "http://www.fakemailgenerator.com/#/rhyta.com/Thunt1976/")
