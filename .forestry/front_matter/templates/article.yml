@@ -1,0 +1,37 @@
+---
+label: Article
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: coverType
+  label: coverType
+- type: file
+  name: coverBanner
+  label: coverBanner
+- type: text
+  name: coverTitleBgColor
+  label: coverTitleBgColor
+- type: text
+  name: summary
+  label: summary
+- type: list
+  name: homePageTitle
+  label: homePageTitle
+- type: boolean
+  name: isInsidePage
+  label: isInsidePage
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
