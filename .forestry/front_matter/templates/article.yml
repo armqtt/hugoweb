@@ -1,4 +1,50 @@
 ---
 label: Article
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: draft
+  type: boolean
+  label: draft
+- name: coverType
+  type: select
+  default: Image
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: content/data/covertype.yaml
+      path: coverType
+  label: Cover Type
+- name: coverBanner
+  type: file
+  config:
+    maxSize: 64
+  label: Cover Banner
+- name: coverTitleBgColor
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: content/data/coverTitleBgColor.yaml
+      path: coverTitleBgColor
+  label: Cover Title Bg Color
