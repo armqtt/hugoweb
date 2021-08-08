@@ -4,13 +4,13 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: text
   name: type
-  label: type
+  label: Type
 - name: covertype
   type: select
   default: Image
@@ -22,10 +22,10 @@ fields:
       section: data
       file: content/data/covertype.yaml
       path: coverType
-  label: coverType
+  label: Cover Type
 - type: file
   name: coverBanner
-  label: coverBanner
+  label: Cover Banner
 - name: covertitlebgcolor
   type: select
   default: aquamarine
@@ -37,22 +37,22 @@ fields:
       section: data
       file: content/data/coverTitleBgColor.yaml
       path: coverTitleBgColor
-  label: coverTitleBgColor
+  label: Cover Title Background Color
 - type: text
   name: summary
-  label: summary
+  label: Summary
   hidden: true
 - type: list
   name: homePageTitle
-  label: homePageTitle
+  label: Home Page Title
   hidden: true
 - type: boolean
   name: isInsidePage
-  label: isInsidePage
+  label: Is Inside Page?
   default: true
 - type: list
   name: tags
-  label: tags
+  label: Tags
 - type: list
   name: categories
   label: categories
