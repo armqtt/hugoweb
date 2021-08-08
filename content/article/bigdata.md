@@ -1,18 +1,23 @@
 ---
-title: "Big Data, Machine Learning and Deep Learning"
-date: 2021-08-07T17:27:10+08:00
-draft: false
+title: Big Data, Machine Learning and Deep Learning
+date: 2021-08-07T17:27:10.000+08:00
 type: blog
 coverType: Image
 coverBanner: "/assets/images/bigdata/cover.jpg"
-coverTitleBgColor: "steelblue"
-summary: ""
-homePageTitle: ["Ar Matt Blog", "www.armatt.hk"]
+coverTitleBgColor: steelblue
+summary: ''
+homePageTitle:
+- Ar Matt Blog
+- www.armatt.hk
 isInsidePage: true
-tags: ["big data"]
-categories: ["big data"]
----
+tags:
+- big data
+categories:
+- big data
+covertype: Image
+covertitlebgcolor: aquamarine
 
+---
 # Big Data, Machine Learning and Deep Learning
 ## Big data is large volume data collecting by 4 manner: 
 
@@ -47,4 +52,4 @@ Machine Learning need man power to classify huge photo(big data) to tell the mac
 
 But Deep learning can find the edge by itself. if machine find the object face edge, then find the face have two circle(eye), one triangle(nose) and one oval(mouth), this photo of feature can be analyzed to a cat. If the mouth is rectangle, the machine can tell human that is dog.
 
-Machine Learning need a lot of human power but the processing time will be short. Deep Learning need lack of human power but the processing time is much long.  
+Machine Learning need a lot of human power but the processing time will be short. Deep Learning need lack of human power but the processing time is much long.
