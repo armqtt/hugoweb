@@ -56,3 +56,5 @@ fields:
   name: categories
   label: categories
   hidden: true
+pages:
+- content/article/logus.md
