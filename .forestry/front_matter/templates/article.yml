@@ -57,5 +57,6 @@ fields:
   label: categories
   hidden: true
 pages:
+- content/article/arbo.md
 - content/article/logus.md
 - content/article/mountain.md
