@@ -17,14 +17,14 @@
             <div class="cover">
                 {{ if .Params.coverBanner }}
                     {{ if eq .Params.coverType "Video" }}
-                    <video id="coverVideo" muted autoplay loop class="cover-item" src="{{ .Params.coverBanner }}" type="video/mp4">
+                    <video id="coverVideo" muted autoplay loop playsinline class="cover-item" src="{{ .Params.coverBanner }}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                     {{ else }}
                         <img src="{{ .Params.coverBanner }}" class="cover-item" alt="Cover Banner">
                     {{ end }}
                 {{ else }}
-                    <video id="coverVideo" muted autoplay loop class="cover-item" src="/assets/videos/cover.mp4" type="video/mp4">
+                    <video id="coverVideo" muted autoplay loop playsinline class="cover-item" src="/assets/videos/cover.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 {{ end}}
