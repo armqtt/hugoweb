@@ -41,6 +41,7 @@ fields:
 - type: text
   name: summary
   label: summary
+  hidden: true
 - type: list
   name: homePageTitle
   label: homePageTitle
