@@ -27,6 +27,7 @@ fields:
 - type: file
   name: coverBanner
   label: Cover Banner
+  description: 'Width: 1600px<br>Height:  900px'
 - name: covertitlebgcolor
   type: select
   default: aquamarine
