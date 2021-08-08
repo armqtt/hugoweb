@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <div class="align-center">
+        <div class="main-content">
+            {{ if .Params.isInsidePage }}
+                <div class="breadcrumb"><a href="/">主頁</a> » {{ .Title }}</div>
+                {{ end }}
+                {{ .Content }}
+
+                <br />
+                {{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a> {{end}}{{end}}
+        </div>
+    </div>
+{{ end }}

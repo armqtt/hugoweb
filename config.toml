@@ -1,0 +1,11 @@
+baseURL = 'http://www.armatt.hk/'
+languageCode = 'zh-hk'
+title = 'Ar Matt Blog'
+paginate =  10
+[Params]
+homePageTitle = "Ar Matt Blog"
+homePageSubTitle = "www.armatt.hk"
+[taxonomies]
+  tag = "tags"
+[permalinks]
+  article = "/article/:title/"

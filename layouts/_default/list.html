@@ -1,0 +1,35 @@
+{{ define "main"}}
+    {{ .Content }}
+    <div class="wrapper">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "article" ) }}
+        {{range $paginator.Pages }}
+            {{ if not ( eq .Title "blog" ) }}
+                <div>
+                    <div class="page-section">
+                        <h1{{ if .Params.coverTitleBgColor}} style="background-color: {{ .Params.coverTitleBgColor }}"{{ end }}>{{ .Title }}</h1>
+                        <a href="{{ .URL }}" class="display-block">
+                            {{ if eq .Params.coverType "Video" }}
+                            <video id="coverVideo" muted autoplay loop class="page-cover" src="{{ .Params.coverBanner }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            {{ else }}
+                            <div class="page-cover hover14">
+                                <div>
+                                    <figure><img src="{{ .Params.coverBanner }}" alt="Cover Banner" /></figure>
+                                </div>
+                            </div>
+                            {{ end }}
+                            <div>
+                                {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{  truncate 180 .Summary }}{{ end }}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+    {{ template "_internal/pagination.html" . }}
+    <br />
+    <br />
+    <br />
+{{ end }}

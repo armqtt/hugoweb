@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ `css/main.css` | relURL }}">
+    <link rel="icon" href="{{ `assets/favicon.ico` | relURL }}" type="image/x-icon"/>
+    <title>{{ .Site.Title }} - {{ .Title }}</title>
+</head>
+
+<body>
+    <header>
+        {{ block "header" . }}
+
+            <div class="cover">
+                {{ if .Params.coverBanner }}
+                    {{ if eq .Params.coverType "Video" }}
+                    <video id="coverVideo" muted autoplay loop class="cover-item" src="{{ .Params.coverBanner }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    {{ else }}
+                        <img src="{{ .Params.coverBanner }}" class="cover-item" alt="Cover Banner">
+                    {{ end }}
+                {{ else }}
+                    <video id="coverVideo" muted autoplay loop class="cover-item" src="/assets/videos/cover.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                {{ end}}
+            </div>
+            <div class="cover-title{{ if .Params.isInsidePage }}-inside{{ end }}">
+                {{ with .Site.Params.homePageTitle }}
+                {{ . }}
+                {{ end }}
+                {{ with .Site.Params.homePageSubTitle }}
+                <div class="cover-sub-title">{{ . }}</div>
+                {{ end }}
+            </div>
+            
+
+        {{ end }}
+    </header>
+
+    <div class="container{{ if .Params.isInsidePage }}-inside{{ end }}">
+        <main>
+            {{ block "main" . }}
+                {{ .Content }}
+            {{ end }}
+        </main>
+        <footer>
+            {{ block "footer" . }}
+                &copy;<span id="this-year"></span>&nbsp;Copyright and Design Powered by Matt Ng. All Rights Reserved.
+            {{ end }}
+        </footer>
+    </div>
+    <script src="{{ `/js/main.js` | relURL }}"></script>
+</body>
+
+</html>

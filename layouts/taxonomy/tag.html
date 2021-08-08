@@ -1,0 +1,33 @@
+  {{ define "main"}}
+  {{ .Content }}
+  <div class="breadcrumb"><a href="/">主頁</a> » {{ .Title }}</div>
+  <div class="page-title"><h1>Tag: {{ .Title }}</h1></div>
+  <div class="wrapper">
+      {{ range .Data.Pages }}
+      {{ if not ( eq .Title "blog" ) }}
+                <div>
+                    <div class="page-section">
+                        <h1>{{ .Title }}</h1>
+                        <a href="{{ .URL }}" class="display-block">
+                            {{ if eq .Params.coverType "Video" }}
+                            <video id="coverVideo" muted autoplay loop class="page-cover" src="{{ .Params.coverBanner }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            {{ else }}
+                            <div class="page-cover hover14">
+                                <div>
+                                    <figure><img src="{{ .Params.coverBanner }}" alt="Cover Banner" /></figure>
+                                </div>
+                            </div>
+                            {{ end }}
+                            <div>
+                                {{ if isset .Params "summary" }}{{ .Params.Summary }}{{ else }}{{  truncate 180 .Summary }}{{ end }}
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+    {{ template "_internal/pagination.html" . }}
+{{ end }}
