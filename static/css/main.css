@@ -11,6 +11,7 @@ html, body{
 }
 a{
     color: black;
+    word-break: break-word;
     text-decoration: none;
 }
 a:visited{
