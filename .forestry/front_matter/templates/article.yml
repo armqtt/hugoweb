@@ -48,3 +48,11 @@ fields:
       file: content/data/coverTitleBgColor.yaml
       path: coverTitleBgColor
   label: Cover Title Bg Color
+- name: isInsidePage
+  type: boolean
+  label: Is Inside Page?
+  default: true
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
