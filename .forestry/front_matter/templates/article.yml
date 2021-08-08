@@ -11,14 +11,32 @@ fields:
 - type: text
   name: type
   label: type
-- type: text
-  name: coverType
+- name: covertype
+  type: select
+  default: Image
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: content/data/covertype.yaml
+      path: coverType
   label: coverType
 - type: file
   name: coverBanner
   label: coverBanner
-- type: text
-  name: coverTitleBgColor
+- name: covertitlebgcolor
+  type: select
+  default: aquamarine
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: content/data/coverTitleBgColor.yaml
+      path: coverTitleBgColor
   label: coverTitleBgColor
 - type: text
   name: summary
@@ -26,12 +44,15 @@ fields:
 - type: list
   name: homePageTitle
   label: homePageTitle
+  hidden: true
 - type: boolean
   name: isInsidePage
   label: isInsidePage
+  default: true
 - type: list
   name: tags
   label: tags
 - type: list
   name: categories
   label: categories
+  hidden: true
