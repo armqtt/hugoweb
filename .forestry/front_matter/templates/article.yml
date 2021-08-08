@@ -59,6 +59,7 @@ fields:
   hidden: true
 pages:
 - content/article/arbo.md
+- content/article/armatt-tools.md
 - content/article/beautiful-pattern.md
 - content/article/logus.md
 - content/article/mountain.md
