@@ -1,18 +1,23 @@
 ---
-title: "嘉頓山"
-date: 2021-08-07T17:22:11+08:00
-draft: false
+title: 嘉頓山
+date: 2021-08-07T17:22:11.000+08:00
 type: blog
 coverType: Image
 coverBanner: "/assets/images/garden/cover.jpg"
-coverTitleBgColor: "coral"
-summary: ""
-homePageTitle: ["Ar Matt Blog", "www.armatt.hk"]
+coverTitleBgColor: coral
+summary: ''
+homePageTitle:
+- Ar Matt Blog
+- www.armatt.hk
 isInsidePage: true
-tags: ["gallery"]
-categories: ["gallery"]
----
+tags:
+- gallery
+categories:
+- gallery
+covertype: Image
+covertitlebgcolor: aquamarine
 
+---
 # 嘉頓山
 
 ![](/assets/images/garden/01.jpg)
