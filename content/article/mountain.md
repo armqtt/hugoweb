@@ -3,7 +3,7 @@ title: 飛鵝山夜景
 date: 2021-08-07T17:13:33.000+08:00
 type: blog
 coverType: Image
-coverBanner: "/assets/images/mountain/cover.jpg"
+coverBanner: "/assets/fai_cover-1.jpg"
 coverTitleBgColor: antiquewhite
 summary: ''
 homePageTitle:
@@ -15,7 +15,7 @@ tags:
 categories:
 - gallery
 covertype: Image
-covertitlebgcolor: aquamarine
+covertitlebgcolor: cornflowerblue
 
 ---
 # 飛鵝山夜景
