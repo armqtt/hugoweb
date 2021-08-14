@@ -3,7 +3,7 @@ title: Armatt Tool Kits
 date: 2021-08-01T19:14:48.000+08:00
 type: blog
 coverType: Image
-coverBanner: "/assets/images/armatt-tools/cover.jpg"
+coverBanner: "/assets/armatt-logo.jpg"
 coverTitleBgColor: blueviolet
 summary: ''
 homePageTitle:
@@ -15,7 +15,7 @@ tags:
 categories:
 - tools
 covertype: Image
-covertitlebgcolor: aquamarine
+covertitlebgcolor: lightgreen
 
 ---
 # 歡迎! 這裏是AR MATT網誌。
