@@ -15,7 +15,7 @@ tags:
 categories:
 - gallery
 covertype: Image
-covertitlebgcolor: blueviolet
+covertitlebgcolor: steelblue
 
 ---
 # 飛鵝山夜景
