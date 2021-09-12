@@ -237,14 +237,17 @@ figure {
 .pagination-item a:hover{
     background-color: teal;
 }
-.pagination-current-item{
+.pagination-item.active{
     padding: 12px;
     background-color: lightseagreen;
     color: white;
 }
-div .pagination-current-item:hover{
+div .pagination-item.active:hover{
     background-color: lightseagreen;
     color: white;
+}
+.pagination-item.disabled{
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -263,6 +266,12 @@ div .pagination-current-item:hover{
     .pagination-other-item{
         display: none;
     }
+    .pagination-item{
+        display: none;
+    }
+    .pagination-item.active{
+        display: block !important;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -274,5 +283,11 @@ div .pagination-current-item:hover{
     }
     .pagination-other-item{
         display: none;
+    }
+    .pagination-item{
+        display: none;
+    }
+    .pagination-item.active{
+        display: block !important;
     }
 }
