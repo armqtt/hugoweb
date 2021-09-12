@@ -11,7 +11,6 @@ html, body{
 }
 a{
     color: black;
-    word-break: break-word;
     text-decoration: none;
 }
 a:visited{
@@ -43,13 +42,12 @@ header{
     flex: 1;
     justify-content: center;
     align-items: center;
-
 }
 div .cover-item-bg{
     position: absolute;
     top: 50%; 
     left: 50%;
-    z-index: -200;
+    z-index: -20;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     min-width: 100%; 
@@ -63,7 +61,7 @@ div .cover-item{
     position: absolute;
     top: 50%; 
     left: 50%;
-    z-index: -100;
+    z-index: -10;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     min-width: 100%; 
@@ -219,7 +217,7 @@ figure {
     align-items: center;
     justify-content: center;
 }
-.pagination .page-item{
+.pagination-item{
     float: left;
     box-sizing: border-box;
     margin: 12px;
@@ -228,26 +226,23 @@ figure {
     border-radius: 10px;
     list-style-type: none;
 }
-.pagination .page-item a{
+.pagination-item a{
     display: block;
     border: 2px solid lightseagreen;
     padding: 12px;
     border-radius: 10px;
 }
-.pagination .page-item a:hover{
+.pagination-item a:hover{
     background-color: teal;
 }
-.pagination .page-item.active{
+.pagination-current-item{
     padding: 12px;
     background-color: lightseagreen;
     color: white;
 }
-div .pagination .page-item.active:hover{
+div .pagination-current-item:hover{
     background-color: lightseagreen;
     color: white;
-}
-.pagination .page-item.disabled{
-    display: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -266,12 +261,6 @@ div .pagination .page-item.active:hover{
     .pagination-other-item{
         display: none;
     }
-    .pagination .page-item a{
-        display: none;
-    }
-    .pagination .page-item.active a, .pagination .page-item .page-link{
-        display: block !important;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -283,11 +272,5 @@ div .pagination .page-item.active:hover{
     }
     .pagination-other-item{
         display: none;
-    }
-    .pagination .page-item a{
-        display: none;
-    }
-    .pagination .page-item.active a, .pagination .page-item .page-link{
-        display: block !important;
     }
 }
