@@ -6,6 +6,3 @@ if(vid != undefined){
     // vid.load();
     vid.play();
 }
-// vid.autoplay = true;
-// vid.load();
-vid.play();
