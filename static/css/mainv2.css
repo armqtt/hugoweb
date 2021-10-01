@@ -77,6 +77,11 @@ div .cover-item{
     position: relative;
     top: 70vh;
     left: 10%;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+   -1px  1px 2px black,
+   -1px -1px 2px black;
 }
 div .cover-sub-title{
     font-size: 1rem;
@@ -87,6 +92,11 @@ div .cover-sub-title{
     position: relative;
     top:51vh;
     left: 10%;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+   -1px  1px 2px black,
+   -1px -1px 2px black;
 }
 .container-inside{
     margin-top: -40vh;
@@ -245,7 +255,7 @@ div .pagination-current-item:hover{
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .wrapper{
         grid-template-columns: 1fr;
     }
@@ -260,6 +270,13 @@ div .pagination-current-item:hover{
     }
     .pagination-other-item{
         display: none;
+    }
+    .container-inside{
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        padding: 0 15px;
     }
 }
 
