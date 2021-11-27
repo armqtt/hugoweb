@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="{{ `css/mainv3.css` | relURL }}">
     <link rel="icon" href="{{ `assets/favicon.ico` | relURL }}" type="image/x-icon"/>
     <title>{{ .Site.Title }} - {{ .Title }}</title>
+    <meta name="description" content="{{if .IsPage}}{{ truncate 55 .Title }}{{ else }}{{ .Site.Params.homePageTitle }}{{ end }}" />
+    <meta property="og:locale" content="zh-Hk" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ .Site.Params.homePageTitle }}" />
+    <meta property="og:description" content="{{if .IsPage}}{{ truncate 55 .Title }}{{ else }}{{ .Site.Params.homePageTitle }}{{ end }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:site_name" content="{{ .Site.Params.homePageTitle }}" />
+    <meta property="og:image" content="/assets/images/opengraph.jpg" />
 </head>
 
 <body>
