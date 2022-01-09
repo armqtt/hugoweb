@@ -1,23 +1,49 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-HK"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ `css/mainv3.css` | relURL }}">
-    <link rel="icon" href="{{ `assets/favicon.ico` | relURL }}" type="image/x-icon"/>
+    <link rel="pingback" href="https: //domainname.com/xmlrpc.php" />
     <title>{{ .Site.Title }} - {{ .Title }}</title>
-    <meta name="description" content="{{if .IsPage}}{{ truncate 55 .Title }}{{ else }}{{ .Site.Params.homePageTitle }}{{ end }}" />
-    <meta property="og:locale" content="zh-Hk" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="{{ .Site.Params.homePageTitle }}" />
+    <link rel="stylesheet" href="{{ `css/mainv3.css` | relURL }}" media="all">
+    <meta name="description" content="{{ .Site.Title }} - {{ .Title }}" />
+    <meta name="robots" content="index, follow, max-snippet: -1, max-image-preview:large, max-video-preview: -1" />
+    <link rel="canonical" href="" />
+    <meta property="og:locale" content="zh-HK" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ .Site.Title }} - {{ .Title }}" />
     <meta property="og:description" content="{{if .IsPage}}{{ truncate 55 .Title }}{{ else }}{{ .Site.Params.homePageTitle }}{{ end }}" />
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:site_name" content="{{ .Site.Params.homePageTitle }}" />
     <meta property="og:image" content="/assets/images/opengraph.jpg" />
+    <meta property="og:image:secure_url" content="/assets/images/opengraph.jpg" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="200" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="{{if .IsPage}}{{ truncate 55 .Title }}{{ else }}{{ .Site.Params.homePageTitle }}{{ end }}" />
+    <meta name="twitter:title" content="{{ .Site.Title }} - {{ .Title }}" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:image" content="/assets/images/opengraph.jpg" />
+    <meta name="twitter:creator" content="@" />
+    <meta name="og:latitude" content="" />
+    <meta name="og:longitude" content="" />
+    <meta name="og:street-address" content="" />
+    <meta name="og:locality" content="" />
+    <meta name="og:region" content="Hong Kong" />
+    <meta name="og:postal-code" content="" />
+    <meta name="og:country-name" content="" />
+    <meta name="google-site-verification" content="" />
+    <meta name="yandex-verification" content="" />
+    <meta name="generator" content="Ar Matt" />
+    <link rel="icon" href="{{ `assets/favicon-32x32.png` | relURL }}" sizes="32x32" />
+    <link rel="icon" href="{{ `assets/favicon-192x192.png` | relURL }}" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="{{ `assets/favicon-180x180.png` | relURL }}" />
+    <meta name="msapplication-TileImage" content="{{ `assets/favicon-270x270.png` | relURL }}" />
 </head>
-
 <body>
     <header>
         {{ block "header" . }}
