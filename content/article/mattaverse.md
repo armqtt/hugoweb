@@ -1,7 +1,7 @@
 +++
 categories = []
 coverBanner = "/assets/mataverse-cover.jpg"
-covertitlebgcolor = "aquamarine"
+covertitlebgcolor = "blueviolet"
 covertype = "Image"
 date = 2021-01-14T16:00:00Z
 homePageTitle = []
