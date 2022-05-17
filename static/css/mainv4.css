@@ -32,6 +32,12 @@ header{
     display: block;
     overflow: hidden;
 }
+.header-inside{
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
 .cover{
     position: fixed;
     z-index: -1000;
@@ -43,7 +49,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-div .cover-item-bg{
+.cover .cover-item-bg{
     position: absolute;
     top: 50%; 
     left: 50%;
@@ -57,7 +63,7 @@ div .cover-item-bg{
     height: auto;
     overflow: hidden;
 }
-div .cover-item{
+.cover .cover-item{
     position: absolute;
     top: 50%; 
     left: 50%;
@@ -86,7 +92,6 @@ div .cover-item{
 div .cover-sub-title{
     font-size: 1rem;
 }
-
 .cover-title-inside{
     font-size: 3.5rem;
     position: relative;
@@ -99,14 +104,15 @@ div .cover-sub-title{
    -1px -1px 2px black;
 }
 .container-inside{
-    margin-top: -40vh;
-    background-color: white;
-    margin-left: 25px;
-    margin-right: 25px;
     min-height: 496px;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 30px;
+    justify-content: center;
+}
+.container-inside main{
+    background-color: white;
+    max-width: 1060px;
+    padding: 10px 30px
 }
 .container-inside .main-content{
     padding: 0 5px;
@@ -118,10 +124,6 @@ div .cover-sub-title{
     display: flex;
     flex-wrap: wrap;
     padding: 10px 30px;
-}
-
-main{
-    flex: 1;
 }
 
 footer{
@@ -145,6 +147,7 @@ video{
 
 main{
     padding-top: 30px;
+    flex: 1;
 }
 .wrapper {
     display: grid;
@@ -255,6 +258,17 @@ figure {
 div .pagination-current-item:hover{
     background-color: lightseagreen;
     color: white;
+}
+
+.cover-inside{
+    display: flex;
+    justify-content: center;
+}
+.cover-inside .cover-item{
+    width: 100%;
+    height: auto;
+    max-width: 1125px;
+    
 }
 
 @media only screen and (max-width: 768px) {

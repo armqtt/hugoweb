@@ -10,4 +10,9 @@
                 {{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a> {{end}}{{end}}
         </div>
     </div>
+    <style>
+        body{
+            background-color: {{ .Params.coverTitleBgColor }};
+        }
+    </style>
 {{ end }}

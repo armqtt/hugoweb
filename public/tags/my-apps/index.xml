@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Apps on Ar Matt Blog</title>
+    <link>http://www.armatt.hk/tags/my-apps/</link>
+    <description>Recent content in My Apps on Ar Matt Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hk</language>
+    <lastBuildDate>Thu, 27 Jan 2022 16:00:00 +0000</lastBuildDate><atom:link href="http://www.armatt.hk/tags/my-apps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>砌文出字簡介</title>
+      <link>http://www.armatt.hk/article/%E7%A0%8C%E6%96%87%E5%87%BA%E5%AD%97%E7%B0%A1%E4%BB%8B/</link>
+      <pubDate>Thu, 27 Jan 2022 16:00:00 +0000</pubDate>
+      
+      <guid>http://www.armatt.hk/article/%E7%A0%8C%E6%96%87%E5%87%BA%E5%AD%97%E7%B0%A1%E4%BB%8B/</guid>
+      <description>砌文出字簡介 砌文出字顧名思義用文字砌成大文字。究竟是怎樣用呢? 看下去便掌握得到。
+https://text.armatt.hk/
+1.1. 前景代碼輸入空白鍵，背景代碼輸入&amp;quot;HellowWorld!&amp;quot;，內容輸入&amp;quot;HelloWorld!&amp;quot;。 1.2. 文字排列選擇&amp;quot;水平繞文&amp;quot;。 1.3. 按＂完成＂按鈕。 2.1 輸入中文字一樣可以。 3.1. 用表情符號砌成文字亦得。 以Skype為例：
+https://support.skype.com/en/faq/fa12330/what-is-the-full-list-of-emoticons
+3.2. 將表情符號代碼各自複製至前景及背景代碼。 3.3. 之後複製貼上Skype 3.4. 大功告成 大家不妨試試。</description>
+    </item>
+    
+  </channel>
+</rss>

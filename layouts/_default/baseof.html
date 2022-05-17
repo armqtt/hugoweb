@@ -45,10 +45,10 @@
     <meta name="msapplication-TileImage" content="{{ `assets/favicon-270x270.png` | relURL }}" />
 </head>
 <body>
-    <header>
+    <header{{ if .Params.isInsidePage }} class="header-inside"{{ end }}>
         {{ block "header" . }}
 
-            <div class="cover">
+            <div class="cover{{ if .Params.isInsidePage }}-inside{{ end }}">
                 {{ if .Params.coverBanner }}
                     {{ if eq .Params.coverType "Video" }}
                     <video id="coverVideo" muted autoplay loop playsinline class="cover-item" src="{{ .Params.coverBanner }}" type="video/mp4">
@@ -62,9 +62,12 @@
                         Your browser does not support the video tag.
                     </video>
                 {{ end}}
+                {{ if not .Params.isInsidePage }}
                 <img src="{{ `assets/videos/cover.jpg` | relURL }}" class="cover-item-bg" alt="Cover Banner">
+                {{ end}}
             </div>
-            <div class="cover-title{{ if .Params.isInsidePage }}-inside{{ end }}">
+            {{ if not .Params.isInsidePage }}
+            <div class="cover-title">
                 {{ with .Site.Params.homePageTitle }}
                 {{ . }}
                 {{ end }}
@@ -72,7 +75,7 @@
                 <div class="cover-sub-title">{{ . }}</div>
                 {{ end }}
             </div>
-            
+            {{ end }}
 
         {{ end }}
     </header>

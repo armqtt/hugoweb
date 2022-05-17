@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on Ar Matt Blog</title>
+    <link>http://www.armatt.hk/tags/tools/</link>
+    <description>Recent content in tools on Ar Matt Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hk</language>
+    <lastBuildDate>Sun, 08 Aug 2021 05:22:00 +0000</lastBuildDate><atom:link href="http://www.armatt.hk/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>免費SMS、電郵臨時收取帳號</title>
+      <link>http://www.armatt.hk/article/%E5%85%8D%E8%B2%BBsms%E9%9B%BB%E9%83%B5%E8%87%A8%E6%99%82%E6%94%B6%E5%8F%96%E5%B8%B3%E8%99%9F/</link>
+      <pubDate>Sun, 08 Aug 2021 05:22:00 +0000</pubDate>
+      
+      <guid>http://www.armatt.hk/article/%E5%85%8D%E8%B2%BBsms%E9%9B%BB%E9%83%B5%E8%87%A8%E6%99%82%E6%94%B6%E5%8F%96%E5%B8%B3%E8%99%9F/</guid>
+      <description>免費SMS、電郵臨時收取帳號 當需要註冊一個帳戶時，往往都需要登記一個手提電話號碼或電郵地址作為登記資料。但有時想登記臨時帳號，又不想使用個人資料，這個時候便需要個假的臨時電話號碼或電郵地址去登記。以下兩個網站可以作此用途。
+隐私短信 可即時收取短信：
+https://tw.yinsiduanxin.com/country.html
+Fake Email Generator 可即時收取電郵：
+http://www.fakemailgenerator.com/#/rhyta.com/Thunt1976/</description>
+    </item>
+    
+    <item>
+      <title>幾何圖像生成網、超炫圖案生成網</title>
+      <link>http://www.armatt.hk/article/%E5%B9%BE%E4%BD%95%E5%9C%96%E5%83%8F%E7%94%9F%E6%88%90%E7%B6%B2%E8%B6%85%E7%82%AB%E5%9C%96%E6%A1%88%E7%94%9F%E6%88%90%E7%B6%B2/</link>
+      <pubDate>Sat, 07 Aug 2021 19:49:51 +0800</pubDate>
+      
+      <guid>http://www.armatt.hk/article/%E5%B9%BE%E4%BD%95%E5%9C%96%E5%83%8F%E7%94%9F%E6%88%90%E7%B6%B2%E8%B6%85%E7%82%AB%E5%9C%96%E6%A1%88%E7%94%9F%E6%88%90%E7%B6%B2/</guid>
+      <description>幾何圖像生成網、超炫圖案生成網 Inspiral Web - Nathan Friend 連結：
+https://nathanfriend.io/inspiral-web/
+Silk – Interactive Generative Art 連結：
+http://weavesilk.com/</description>
+    </item>
+    
+    <item>
+      <title>Armatt Tool Kits</title>
+      <link>http://www.armatt.hk/article/armatt-tool-kits/</link>
+      <pubDate>Sun, 01 Aug 2021 19:14:48 +0800</pubDate>
+      
+      <guid>http://www.armatt.hk/article/armatt-tool-kits/</guid>
+      <description>歡迎! 這裏是AR MATT網誌。 本網站收錄AR MATT的資訊，不定時更新。AR MATT所編寫的程式入口如下，程式公開使用，enjoy：
+連結：
+https://tools.armatt.hk</description>
+    </item>
+    
+  </channel>
+</rss>
