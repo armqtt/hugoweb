@@ -9,7 +9,7 @@
             <div>
                 <div class="page-section">
                     <h1>{{ .Title }}</h1>
-                    <a href="{{ .URL }}" class="display-block">
+                    <a href="{{ .RelPermalink }}" class="display-block">
                         {{ if eq .Params.coverType "Video" }}
                         <video id="coverVideo" muted autoplay loop class="page-cover" src="{{ .Params.coverBanner }}" type="video/mp4">
                             Your browser does not support the video tag.
@@ -38,7 +38,7 @@
     
         {{ if $paginator.HasPrev }}
         <li class="pagination-item pagination-item-previous">
-            <a href="{{ $paginator.Prev.URL }}" class="pagination-link pagination-link-previous">
+            <a href="{{ $paginator.Prev.RelPermalink }}" class="pagination-link pagination-link-previous">
             «
             </a>
         </li>
@@ -49,7 +49,7 @@
             {{ if eq . $paginator }}
                 {{ .PageNumber }}
             {{ else }}
-                <a href="{{ .URL }}" class="pagination-link">
+                <a href="{{ .RelPermalink }}" class="pagination-link">
                 {{ .PageNumber }}
                 </a>
             {{ end }}
@@ -58,7 +58,7 @@
         
         {{ if $paginator.HasNext }}
         <li class="pagination-item pagination-item-next">
-            <a href="{{ $paginator.Next.URL }}" class="pagination-link pagination-link-next">
+            <a href="{{ $paginator.Next.RelPermalink }}" class="pagination-link pagination-link-next">
                 »
             </a>
         </li>
