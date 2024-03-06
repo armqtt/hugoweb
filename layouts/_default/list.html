@@ -6,7 +6,7 @@
             {{ if not ( eq .Title "blog" ) }}
                 <div>
                     <div class="page-section">
-                        <a href="{{ .URL }}" class="display-block">
+                        <a href="{{ .RelPermalink  }}" class="display-block">
                             <h1{{ if .Params.coverTitleBgColor}} style="background-color: {{ .Params.coverTitleBgColor }}"{{ end }}>{{ .Title }}</h1>
                             {{ if eq .Params.coverType "Video" }}
                             <video id="coverVideo" muted autoplay loop class="page-cover" src="{{ .Params.coverBanner }}" type="video/mp4">
