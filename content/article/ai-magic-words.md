@@ -1,22 +1,16 @@
 ---
-title: 你的生成AI魔咒之超級工具--完全免費
-date: 2024-07-05T11:00:00Z
+title: "你的生成AI魔咒之超級工具--完全免費"
+date: 2024-07-05T13:32:10+08:00
+draft: false
 type: blog
 coverType: Image
 coverBanner: "/assets/ai-magic-words/ai-magic-words.jpg"
-coverTitleBgColor: orangered
-summary: ''
-homePageTitle:
-- Ar Matt Blog
-- www.armatt.hk
+coverTitleBgColor: "orangered"
+summary: ""
+homePageTitle: ["Ar Matt Blog", "www.armatt.hk"]
 isInsidePage: true
-tags:
-- tools
-categories:
-- tools
-covertype: Image
-covertitlebgcolor: orangered
-
+tags: ["tools", "technology"]
+categories: ["tools", "technology"]
 ---
 # 你的生成AI魔咒之超級工具!!完全免費
 
