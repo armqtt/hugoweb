@@ -1,6 +1,6 @@
 +++
 categories = []
-draft: false
+draft = false
 coverBanner = "/assets/ww_cover.jpg"
 covertitlebgcolor = "lightgreen"
 covertype = "Image"
