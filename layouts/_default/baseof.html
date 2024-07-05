@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="pingback" href="https: //domainname.com/xmlrpc.php" />
     <title>{{ .Site.Title }} - {{ .Title }}</title>
-    <link rel="stylesheet" href="{{ `css/mainv5.css` | relURL }}" media="all">
+    <link rel="stylesheet" href="{{ `css/mainv6.css` | relURL }}" media="all">
     <meta name="description" content="{{ .Site.Title }} - {{ .Title }}" />
     <meta name="robots" content="index, follow, max-snippet: -1, max-image-preview:large, max-video-preview: -1" />
     <link rel="canonical" href="" />
@@ -68,7 +68,7 @@
             </div>
             {{ if not .Params.isInsidePage }}
             <div class="cover-title">
-                
+                <img src="{{ `assets/badge-ai-avatar-realistic180x180.png` | relURL }}" class="badge" alt="badge" />
                 {{ with .Site.Params.homePageTitle }}
                 {{ . }}
                 {{ end }}
