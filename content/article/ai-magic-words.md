@@ -7,7 +7,7 @@ date = 2024-07-05T11:00:00Z
 homePageTitle = []
 isInsidePage = true
 summary = ""
-tags = ["technology","tools"]
+tags = ["tools"]
 title = "你的生成AI魔咒之超級工具--完全免費"
 type = "blog"
 
