@@ -1,5 +1,6 @@
 +++
 categories = []
+draft: false
 coverBanner = "/assets/ww_cover.jpg"
 covertitlebgcolor = "lightgreen"
 covertype = "Image"
@@ -7,7 +8,7 @@ date = 2022-01-30T16:00:00Z
 homePageTitle = []
 isInsidePage = true
 summary = ""
-tags = []
+tags = ["My Apps", "tools"]
 title = "砌文出字WhatsApp版簡介"
 type = "blog"
 
