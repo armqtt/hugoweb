@@ -8,7 +8,7 @@ homePageTitle = []
 isInsidePage = true
 summary = ""
 tags = ["technology","tools"]
-title = "你的生成AI魔咒之超級工具!!完全免費"
+title = "你的生成AI魔咒之超級工具--完全免費"
 type = "blog"
 
 +++
