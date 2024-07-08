@@ -1,0 +1,53 @@
+<div class="search-container">
+    <input type="text" id="search" placeholder="搜尋闗鍵字" value="" /><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+    </svg>
+    <div id="result">
+    </div>
+</div>
+
+<script src="{{ `js/libjs.js` | relURL}}"></script>
+<script src="{{ `js/stemmer.support.js` | relURL}}"></script>
+<script src="{{ `js/libjs.zh.js` | relURL}}"></script>
+<script src="{{ `js/libjs.multi.js` | relURL}}"></script>
+
+<script>
+    const search = document.getElementById('search');
+    const result = document.getElementById('result');
+
+    search.addEventListener('focus', ()=>{
+        result.classList.remove('hide');
+    })
+    search.addEventListener('blur', ()=>{
+        setTimeout(()=>{
+            result.classList.add('hide');
+        }, 1500);
+    })
+    search.addEventListener('keyup', ()=>{
+        result.innerHTML = "";
+        if(search.value == "") return;
+        let myResult = window.idx.search("*"+search.value+"*");
+        console.log(myResult);
+        myResult.forEach(page => {
+            let pageData = page.ref.split("||");
+            let resultNode = document.createElement('a');
+            resultNode.href = pageData[0];
+            resultNode.innerText = pageData[1];
+            result.appendChild(resultNode);
+        });
+    });
+
+    fetch('/index.json').then(res =>{
+        res.json().then( searchIndex => {
+            window.idx = lunr(function() {
+                this.use(lunr.multiLanguage('en', 'zh'))
+                this.ref("meta");
+                this.field("title");
+                this.field("content");
+
+                searchIndex.forEach( page => this.add(page))
+            })
+        })
+    });
+
+</script>

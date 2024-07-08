@@ -1,0 +1,10 @@
+[
+    {{- range $i, $e := .Site.RegularPages -}}
+    {{ cond (eq $i 0) "" ","}}
+    {
+        "meta": "{{.RelPermalink}}||{{.Title}}",
+        "title": "{{.Title}}",
+        "content": "{{.PlainWords}}"
+    }
+    {{- end -}}
+]

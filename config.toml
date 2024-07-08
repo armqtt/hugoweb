@@ -9,3 +9,7 @@ homePageSubTitle = "www.armatt.hk"
   tag = "tags"
 [permalinks]
   article = "/article/:title/"
+[security.goTemplates]
+  allowActionJSTmpl = true
+[outputs]
+  home = ["HTML", "JSON"]
