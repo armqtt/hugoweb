@@ -201,7 +201,7 @@ figure {
 }
 .hover14 figure::before {
 	position: absolute;
-	top: 0;~
+	top: 0;
 	left: -75%;
 	z-index: 2;
 	display: block;
