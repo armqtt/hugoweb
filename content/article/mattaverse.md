@@ -23,15 +23,11 @@ Spatial 元宇宙共享空間，有電腦網頁版、手機應用程式版和VR�
 [https://2d.hk/mattaverse](https://2d.hk/mattaverse "Mattaverse")
 
 ![](/assets/snipaste_2022-05-17_19-28-39.png)
-
-![](/assets/snipaste_2022-05-17_19-22-46.png)![](/assets/snipaste_2022-05-17_19-23-26.png)
-
+![](/assets/snipaste_2022-05-17_19-22-46.png)
+![](/assets/snipaste_2022-05-17_19-23-26.png)
 ![](/assets/snipaste_2022-05-17_19-24-21.png)
-
 ![](/assets/snipaste_2022-05-17_19-25-49.png)
-
 ![](/assets/snipaste_2022-05-17_19-24-58.png)
-
 ![](/assets/snipaste_2022-05-17_19-22-07.png)
 
 大家不妨進入我的元宇宙逛逛。
