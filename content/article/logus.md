@@ -4,7 +4,6 @@ date: 2021-08-07T13:56:05.000+08:00
 type: blog
 coverType: Image
 coverBanner: "/assets/images/logus/cover.jpg"
-coverTitleBgColor: ''
 summary: ''
 homePageTitle:
 - Ar Matt Blog

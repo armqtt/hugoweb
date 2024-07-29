@@ -4,7 +4,6 @@ date: 2021-08-07T19:49:51.000+08:00
 type: blog
 coverType: Image
 coverBanner: "/assets/images/beautiful-pattern/cover.jpg"
-coverTitleBgColor: ''
 summary: ''
 homePageTitle:
 - Ar Matt Blog
