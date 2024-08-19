@@ -17,7 +17,7 @@ type = "blog"
 
 砌文出字以WhatsApp表情符號砌出文字。只支援繁體中文、英文、數字和符號。
 
-[https://tools.armatt.hk/text2icon-whatsapp/](https://tools.armatt.hk/text2icon-whatsapp/ "https://tools.armatt.hk/text2icon-whatsapp/")
+[https://myapps.armatt.hk/text2icon-whatsapp/](https://myapps.armatt.hk/text2icon-whatsapp/ "https://myapps.armatt.hk/text2icon-whatsapp/")
 
 ## 1. 按"開始製作你的文字"按鈕。
 
