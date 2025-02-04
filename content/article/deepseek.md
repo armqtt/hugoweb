@@ -5,7 +5,7 @@ draft: false
 type: blog
 coverType: Image
 coverBanner: "/assets/images/deepseek/cover.jpg"
-coverTitleBgColor: ""
+coverTitleBgColor: "cornflowerblue"
 summary: ""
 homePageTitle: ["Ar Matt Blog", "www.armatt.hk"]
 isInsidePage: true
