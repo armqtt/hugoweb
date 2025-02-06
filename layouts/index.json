@@ -4,7 +4,10 @@
     {
         "meta": "{{.RelPermalink}}||{{.Title}}",
         "title": "{{.Title}}",
-        "content": "{{.PlainWords}}"
+        
+        "content": "{{- range .PlainWords -}}
+            {{  replace . "\"" "" }}
+        {{- end -}}"
     }
     {{- end -}}
 ]
