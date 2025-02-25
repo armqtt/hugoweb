@@ -275,9 +275,11 @@ div .pagination-current-item:hover{
 .badge{
     width: 3.5rem;
     height: auto;
-    vertical-align: middle;
+    vertical-align: top;
 }
-
+.inline-block{
+    display: inline-block;
+}
 .search-container{
     width: 100%;
     text-align: right;
